@@ -28,7 +28,7 @@ stages:
       displayName: 'Criar Resource Group'
       inputs:
         azureSubscription: 'ar01com'  # 🔁 Substitua
-        scriptType: 'ps'
+        scriptType: 'pscore'
         scriptLocation: 'inlineScript'
         inlineScript: |
           az group create --name $(resourceGroupName) --location $(location)
