@@ -58,7 +58,7 @@ stages:
       displayName: 'Executar CustomScriptExtension'
       inputs:
         azureSubscription: 'ar01com'  # 🔁 Substitua
-        scriptType: 'ps'
+        scriptType: 'pscore'
         scriptLocation: 'inlineScript'
         inlineScript: |
           $vmName = '$(vmName)'
